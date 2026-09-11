@@ -1,0 +1,37 @@
+{
+    "title": "Student",
+    "description": "Schema about students",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the student"
+        },
+        "age": {
+            "type": "number",
+            "description": "The age of the student"
+        },
+        "character": {
+            "type": "string",
+            "enum": [
+                "good",
+                "bad"
+            ],
+            "description": "The way a student behaves in classroom"
+        },
+        "feesStatus": {
+            "type": "string",
+            "enum": [
+                "paid",
+                "freeship",
+                "dues"
+            ],
+            "description": "The status of fees for that student"
+        }
+    },
+    "required": [
+        "name",
+        "age",
+        "feesStatus"
+    ]
+}
