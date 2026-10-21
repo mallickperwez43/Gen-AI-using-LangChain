@@ -1,0 +1,29 @@
+{
+  "name": "08-langchain-document-loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.2.9",
+    "@langchain/google": "^0.2.4",
+    "@langchain/groq": "^1.3.1",
+    "cheerio": "^1.2.0",
+    "d3-dsv": "^3.0.1",
+    "dotenv": "^16.4.5",
+    "langchain": "^1.5.10",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
